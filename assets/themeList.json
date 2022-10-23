@@ -1,0 +1,26 @@
+{
+  "Stereo Dark": {
+    "description": "An homage to the famous Monokai Pro theme.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194774263-a596ba0c-3c24-4323-b051-efc2feda3aac.png"
+  },
+  "Stereo Midnight": {
+    "description": "An homage to the famous Monokai Pro theme.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194774280-52a1bf28-530d-46c1-831c-d0a5938a9881.png"
+  },
+  "GitHub Dark": {
+    "description": "A faithful recreation of the GitHub dark mode theme.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194779756-dcc7ff99-a156-4379-8376-ad8d0051de1a.png"
+  },
+  "GitHub Light": {
+    "description": "A faithful recreation of the GitHub light mode theme.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194778605-521457b7-eb3d-435d-a11f-2adf80639a90.png"
+  },
+  "Parker Solar Probe": {
+    "description": "Tributing the 4th anniversary of the Parker Solar Probe launch.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194794797-aac6f420-97fd-4cd6-a6cd-f314ffdf3014.png"
+  },
+  "Vanilla Flavour": {
+    "description": "The theme that comes with Greenfoot by default.",
+    "imageLink": "https://user-images.githubusercontent.com/52415147/194777105-c8295d07-6a72-4815-8524-020ba187c4ce.png"
+  }
+}

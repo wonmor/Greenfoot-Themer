@@ -1,0 +1,111 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@font-face {
+  font-family: 'MajorMonoDisplay';
+  src: url('../../assets/fonts/MajorMonoDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: monospace;
+}
+
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url('../../assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: monospace;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'MajorMonoDisplay', monospace;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  appearance: none;
+  font-family: 'JetBrainsMono', monospace;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Glyph {
+  padding-right: 10px;
+}
+
+.Generic-Footer {
+  background: rgba(47, 79, 79, 0.5);
+  position: block;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.Generic-Footer-Container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Wardrobe-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  border-radius: 10px;
+  color: black;
+  font-family: 'JetBrainsMono', monospace;
+  background-color: white;
+}
+
+
