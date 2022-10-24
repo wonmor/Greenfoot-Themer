@@ -33,4 +33,4 @@ npm run package
 
 1. **Rayan Kaissi** - for developing and designing all the themes
 
-2. **John Seong ** - for making a GUI utility for convenience sake
+2. **John Seong** - for making a GUI utility for convenience sake
