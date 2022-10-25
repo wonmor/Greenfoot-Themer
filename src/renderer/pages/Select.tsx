@@ -9,32 +9,34 @@ export default function Select() {
     navigate(path);
   };
 
+  const statefulRouteChange = (path: string, currentItemName: string) => {
+    navigate(path, { state: { selectedItem: currentItemName } });
+  };
+
   const themeListItems = JSON.parse(JSON.stringify(themeList));
 
   return (
     <>
       <h1>Wardrobe</h1>
       <div className="Wardrobe-Container">
-        {themeListItems.map(
-          (theme: { image: string | undefined; name: string | undefined }) => (
-            <div className="Wardrobe-Item" key={theme.name}>
-              <button
-                type="button"
-                className="Wardrobe-Image-Container"
-                onClick={() => {
-                  routeChange('/Preview');
-                }}
-              >
-                <img
-                  className="Wardrobe-Item-Image"
-                  src={theme.image}
-                  alt={theme.name}
-                />
-              </button>
-              <div className="Wardrobe-Item-Name">{theme.name}</div>
-            </div>
-          )
-        )}
+        {themeListItems.map((theme: { image: string; name: string }) => (
+          <div className="Wardrobe-Item" key={theme.name}>
+            <button
+              type="button"
+              className="Wardrobe-Image-Container"
+              onClick={() => {
+                statefulRouteChange('/Preview', theme.name); // Passes the name of the current item to the Preview page
+              }}
+            >
+              <img
+                className="Wardrobe-Item-Image"
+                src={theme.image}
+                alt={theme.name}
+              />
+            </button>
+            <div className="Wardrobe-Item-Name">{theme.name}</div>
+          </div>
+        ))}
       </div>
 
       <button type="button" onClick={() => routeChange('/')}>
