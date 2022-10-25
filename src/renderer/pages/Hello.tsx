@@ -3,7 +3,7 @@ import logo from '../../../assets/logo.svg';
 
 import Footer from './Footer';
 
-const Hello = () => {
+export default function Hello() {
   const navigate = useNavigate();
 
   const routeChange = (path: string) => {
@@ -11,7 +11,7 @@ const Hello = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="Hello">
         <img width="150" alt="logo" src={logo} />
       </div>
@@ -24,17 +24,20 @@ const Hello = () => {
           Select Themes
         </button>
 
-        <button type="button" onClick={() => routeChange('/select')}>
-          <span className="Glyph" role="img" aria-label="heart">
-            ❤️
-          </span>
-          Credits
-        </button>
+        <a
+          href="https://github.com/wonmor/Greenfoot-Themer"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button type="button">
+            <span className="Glyph" role="img" aria-label="heart">
+              ❤️
+            </span>
+            Credits
+          </button>
+        </a>
       </div>
-
       <Footer />
-    </div>
+    </>
   );
-};
-
-export default Hello;
+}

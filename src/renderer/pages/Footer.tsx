@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="Generic-Footer">
+    <footer>
       <div className="Generic-Footer-Container">
         <p>
           A Joint Project between John and Rayan.

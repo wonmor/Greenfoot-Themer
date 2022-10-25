@@ -32,6 +32,17 @@ body {
   text-align: center;
 }
 
+footer {
+  background: rgba(47, 79, 79, 0.5);
+  position: block;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
 button {
   background-color: white;
   padding: 10px 20px;
@@ -79,17 +90,6 @@ a:hover {
   padding-right: 10px;
 }
 
-.Generic-Footer {
-  background: rgba(47, 79, 79, 0.5);
-  position: block;
-  display: flex;
-  border-radius: 10px;
-  text-align: center;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-}
-
 .Generic-Footer-Container {
   width: 100%;
   margin-left: auto;
@@ -97,15 +97,31 @@ a:hover {
 }
 
 .Wardrobe-Container {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+  max-height: 300px;
   border-radius: 10px;
   color: black;
   font-family: 'JetBrainsMono', monospace;
   background-color: white;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.Wardrobe-Image-Container {
+  background-color: lightgray;
+}
+
+.Wardrobe-Item-Image {
+  max-width: 100px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.Wardrove-Item-Name {
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
 
 

@@ -3,6 +3,7 @@ import './App.css';
 
 import Hello from './pages/Hello';
 import Select from './pages/Select';
+import Preview from './pages/Preview';
 
 export default function App() {
   return (
@@ -11,11 +12,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Hello />} />
           <Route path="/select" element={<Select />} />
+          <Route path="/preview" element={<Preview />} />
         </Routes>
       </Router>
     </>
   );
 }
-
-// TO DO: CONTINUE ADDING THE TAILWIND CSS CONFIGS...
-// LINK: https://thoughtbot.com/blog/adding-tailwind-to-electron
