@@ -224,6 +224,7 @@
       ]
     },
     "win": {
+      "requestedExecutionLevel": "highestAvailable",
       "target": [
         "nsis"
       ]

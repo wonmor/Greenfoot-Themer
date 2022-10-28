@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import themeList from '../../../assets/themeList.json';
+import themeList from '../../../assets/themes/themeList.json';
 
 export default function Select() {
   const navigate = useNavigate();
