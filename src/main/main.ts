@@ -80,6 +80,9 @@ const createWindow = async () => {
     },
   });
 
+  // Remove this line... it's just for testing
+  // mainWindow.webContents.openDevTools();
+
   mainWindow.loadURL(resolveHtmlPath('index.html'));
 
   mainWindow.on('ready-to-show', () => {

@@ -48,7 +48,9 @@ export default function Preview() {
   const install = async () => {
     themeCSSFileNames.forEach(async (element) => {
       await fs.copyFile(
-        `./assets/themes/${selectedItemName}/${element}`,
+        `${
+          process.env.NODE_ENV === 'production' ? './resources' : '.'
+        }/assets/themes/${selectedItemName}/${element}`,
         `C:\\Program Files\\Greenfoot\\lib\\stylesheets\\${element}`
       );
     });
@@ -83,7 +85,7 @@ export default function Preview() {
                 setIsInstalling(true);
                 install()
                   .then(() => {
-                    setIsInstalling(false);
+                    // setIsInstalling(false);
                     return null;
                   })
                   .catch(() => {});
