@@ -85,7 +85,9 @@ export default function Preview() {
                 setIsInstalling(true);
                 install()
                   .then(() => {
-                    // setIsInstalling(false);
+                    setTimeout(() => {
+                      setIsInstalling(false);
+                    }, 1500);
                     return null;
                   })
                   .catch(() => {});
