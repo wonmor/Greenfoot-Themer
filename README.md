@@ -11,7 +11,7 @@ Themes Designed by **Rayan Kaissi**. GUI Utility Developed by **John Seong**.
 
 ---
 
-<img width="666" alt="Screenshot_20221022_115710" src="https://user-images.githubusercontent.com/35755386/198854357-d98b3560-0b3c-457e-aa3e-5e2a8c32861b.png">
+<img width="666" alt="Screenshot_1" src="https://user-images.githubusercontent.com/35755386/198854357-d98b3560-0b3c-457e-aa3e-5e2a8c32861b.png">
 
 <img width="666" alt="Screenshot_20221022_115710" src="https://user-images.githubusercontent.com/35755386/197538570-8cf867b7-0e8c-450c-bbf7-af46a1756d13.png">
 
