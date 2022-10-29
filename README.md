@@ -1,6 +1,6 @@
 # Greenfoot Themer
 
-[**Buy me a Coffee**](https://www.buymeacoffee.com/wonmor)
+[**Buy me a Coffee** ☕](https://www.buymeacoffee.com/wonmor)
 
 Powered by Electron. Applies user favourite themes such as the GitHub Dark theme, or the Stereo Midnight theme inspired by VS Code's Monokai Pro.
 Greenfoot is an educational software designed to make learning programming easy and fun Interactive Visual tools coupled with programming, made by Oracle.
