@@ -10,4 +10,4 @@
 *.ttf   binary
 *.woff  binary
 *.woff2 binary
-assets/themes/* linguist-vendored
+assets/themes/** linguist-vendored
