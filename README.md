@@ -7,7 +7,7 @@ Greenfoot is an educational software designed to make learning programming easy 
 
 ### [Download for Windows](https://github.com/wonmor/Greenfoot-Themer/raw/main/release/Greenfoot%20Themer%20Setup%201.0.0.exe)
 
-Themes Designed by [**Rayan Kaissi**](https://github.com/GameGenesis). GUI Utility Developed by **John Seong**.
+Themes Designed by [**Rayan Kaissi**](https://github.com/GameGenesis). GUI Utility Developed by [**John Seong**](https://github.com/wonmor).
 
 ---
 
