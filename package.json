@@ -188,11 +188,7 @@
     "productName": "Greenfoot Themer",
     "appId": "org.erb.GreenfootThemer",
     "asar": true,
-    "extraMetadata": {
-      "version": "1.0.0"
-    },
     "asarUnpack": "**\\*.{node,dll}",
-    "buildVersion": "1.0.0",
     "files": [
       "dist",
       "node_modules",
