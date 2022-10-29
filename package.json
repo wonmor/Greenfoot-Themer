@@ -188,7 +188,11 @@
     "productName": "Greenfoot Themer",
     "appId": "org.erb.GreenfootThemer",
     "asar": true,
+    "extraMetadata": {
+      "version": "1.0.0"
+    },
     "asarUnpack": "**\\*.{node,dll}",
+    "buildVersion": "1.0.0",
     "files": [
       "dist",
       "node_modules",
@@ -245,12 +249,12 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "wonmor",
+      "repo": "Greenfoot-Themer"
     }
   },
   "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
+    "url": "https://johnseong.info"
   },
   "devEngines": {
     "node": ">=14.x",
